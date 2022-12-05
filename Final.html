@@ -12,18 +12,18 @@
 <body>
 
     <form>
-        <input type="radio" name="first" id="radio-get"> Get <br>
-        <input type="radio" name="first" id="radio-post"> Post <br>
+        <input type="radio" name="first" id="rad-get"> Get <br>
+        <input type="radio" name="first" id="rad-post"> Post <br>
         <hr>
-        <input type="radio" name="second" id="radio-the" value="The"> The <br>
-        <input type="radio" name="second" id="radio-happy" value="Happy"> Happy <br>
-        <input type="radio" name="second" id="radio-sad" value="Sad"> Sad <br>
-        <input type="radio" name="second" id="radio-lazy" value="Lazy"> Lazy <br>
+        <input type="radio" name="second" id="rad-the" value="The"> The <br>
+        <input type="radio" name="second" id="rad-happy" value="Happy"> Happy <br>
+        <input type="radio" name="second" id="rad-sad" value="Sad"> Sad <br>
+        <input type="radio" name="second" id="rad-lazy" value="Lazy"> Lazy <br>
         <hr>
-        <input type="radio" name="third" id="radio-cat" value="Cat"> Cat <br>
-        <input type="radio" name="third" id="radio-dog" value="Dog"> Dog <br>
-        <input type="radio" name="third" id="radio-fox" value="Fox"> Fox <br>
-        <input type="radio" name="third" id="radio-bear" value="Bear"> Bear <br>
+        <input type="radio" name="third" id="rad-cat" value="Cat"> Cat <br>
+        <input type="radio" name="third" id="rad-dog" value="Dog"> Dog <br>
+        <input type="radio" name="third" id="rad-fox" value="Fox"> Fox <br>
+        <input type="radio" name="third" id="rad-bear" value="Bear"> Bear <br>
         <hr>
         <input type="button" value="Perform Operation" onclick="MethodChecker()">
     </form>
@@ -81,11 +81,11 @@
 
 
     function MethodChecker(){
-        if(document.getElementById("radio-get").checked){
+        if(document.getElementById("rad-get").checked){
             GetMethod()
         }
 
-        if(document.getElementById("radio-post").checked){
+        if(document.getElementById("rad-post").checked){
             PostMethod()
         }
     }
